@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h2>Hello Springboot!!</h2>
+<a href="/req1?p1=aaa&p2=123">query String</a>
+<!-- query string 기억하기. ?""&"" -->
+<a href="/req2/2hyunwoo">path variable</a>
+<!-- 경로만 보내는 형식(path variable) -->
+  <form action="/req3" method="post">
+      name: <input type="text" name="name"> <br>
+      age: <input type="text" name="age"> <br>
+      dt: <input tpye="text" name="dt"> <br>
+      <input type="submit" value="보내기">
+  </form>
+<a href="/req4">변수 하나 출력하기</a> <br>
+<a href="/req5">DTO 객체 출력하기</a> <br>
+<a href="/req6">List 객체 출력하기</a> <br>
+</body>
+</html>
